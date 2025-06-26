@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('ww.jpg') no-repeat center center fixed;
+  /* background-color: #b32f50; */
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* opacity: ; */
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    rgb(77, 73, 94, 0.1) 0%,
+    rgb(36, 34, 43, 0.1) 90%
+  );
+  margin: 50px auto;
+  padding: 32px;
+  width: 400px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 0.8) 0%,
+    rgba(255, 84, 17, 0.8) 100%
+  );
+  padding: 8px 16px;
+  border-radius: 6px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.card:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 0.8) 0%,
+    rgba(155, 0, 250, 0.8) 100%
+  );
+}
+
+.card:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 0.8) 0%,
+    rgba(250, 0, 135, 0.8) 100%
+  );
+}
+
+.card:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 0.8) 0%,
+    rgba(17, 122, 255, 0.8) 100%
+  );
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  height: fit-content;
+  padding: 6px 8px;
+  cursor: pointer;
+  background: #f0d75c;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+input {
+  border: none;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.navbar a {
+  color: white;
+  background-color: #27005d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 6px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login button {
+  color: #27005d;
+  background-color: white;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 6px;
+}
